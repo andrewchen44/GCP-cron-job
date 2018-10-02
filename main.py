@@ -6,5 +6,5 @@ class DailyCronPage(webapp2.RequestHandler):
         contents = urllib2.urlopen(request).read()
 
 app = webapp2.WSGIApplication([
-    ('/day', DailyrCronPage),
+    ('/daily', DailyrCronPage),
     ], debug=True)
