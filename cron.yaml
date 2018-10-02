@@ -1,4 +1,4 @@
 cron:
-    - description: "Daily Job"
-      url: /day
-      schedule: every 24 hours
+    - description: "Hourly Job"
+      url: /hour
+      schedule: every 1 hours
